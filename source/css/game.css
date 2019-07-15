@@ -1,0 +1,59 @@
+
+body{
+	background-color: #fefefe;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+img {
+	position: absolute;
+	margin-left: 15%;
+display:inline-block;
+  height:75%;
+}
+
+
+button {
+  margin-top:20%;
+}
+
+ul {
+	list-style-type: none;
+	display:inline-block;
+}
+
+character{
+		z-index: -1000;   
+}
+
+
+.pant {
+	visibility:hidden;
+  	z-index: 1;
+}
+
+.chestplate {
+	visibility:hidden;
+  	z-index: 2;
+}
+
+.helmet {
+	visibility:hidden;
+  	z-index: 3;
+}
+
+.shoe {
+	visibility:hidden;
+  	z-index: 4;
+}
+
+.shield {
+	visibility:hidden;
+  	z-index: 5;
+}
+
+.weapon {
+	visibility:hidden;
+  	z-index: 6;
+}
