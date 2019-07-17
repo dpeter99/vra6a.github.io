@@ -1,7 +1,7 @@
 
 body{
-	background-color: #fefefe;
-  font-family: 'Ubuntu', sans-serif;
+	background-color: #34495e;
+  	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -9,13 +9,13 @@ body{
 img {
 	position: absolute;
 	margin-left: 15%;
-display:inline-block;
-  height:75%;
+	display:inline-block;
+  	height:75%;
 }
 
 
 button {
-  margin-top:20%;
+  	margin-top:20%;
 }
 
 ul {
@@ -23,10 +23,11 @@ ul {
 	display:inline-block;
 }
 
-character{
-		z-index: -1000;   
+button {
+	padding: 6px;
+	width: 100px;
+	border: none;
 }
-
 
 .pant {
 	visibility:hidden;
