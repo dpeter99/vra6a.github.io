@@ -6,9 +6,18 @@ html, body {
 	height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul {
 	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 60px
 }
+
+p, li {
+	font-size: 25px
+}
+
 
 nav {
 	height: 50px;
@@ -27,15 +36,38 @@ nav a {
 	font-size: 30px;
 }
 
+button {
+	padding: 20px;
+	width: 250px;
+	border: none;
+	text-align: center;
+	font-size: 25px;
+}
+
+img {
+	display: block;
+  	margin: auto;
+}
+
 .sect {
-	height: 100%;
+	height: 70%;
 	width: 100%;
 	background-color: #ffffff;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-.subSect {
+.intro {
+	height: 95%;
+	background-color: #34495E;
+}
+
+.game {
+	height: 45%;
+	background-color: #34495E;
+}
+
+.footer {
 	height: 50%;
 	background-color: #34495E;
 }
