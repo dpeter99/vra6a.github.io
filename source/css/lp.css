@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 20px;
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	z-index: 99;
+	text-align: center;
+}
+
+nav a {
+	margin-left: 30px;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.sect {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.subSect {
+	height: 50%;
+	background-color: #34495E;
+}
+
+.sectimg1 {
+	background-image: url("../images/background1.png");
+}
+
+.sectimg2 {
+	background-image: url("../images/background2.png");
+}
+
+.sectimg3 {
+	background-image: url("../images/background3.png");
+}
