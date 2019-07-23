@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 .image-3 {
 	background: url("../images/background3.png");
-	min-height: 54%;
+	min-height: 58%;
 }
 
 .image-1, .image-2, .image-3 {
@@ -128,7 +128,7 @@ nav ul li a:hover {
 	overflow: auto;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 10px;
+	padding-top: 3px;
 	padding-bottom: 7px;
 	background-color: #3D3D3D;
 	color: white;
