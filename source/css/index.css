@@ -21,9 +21,9 @@ nav	{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 20vh;
-	background-color: rgba(0,0,0,0);
-	z-index: 99;
+	min-height: 18vh;
+	background-color: none;
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -48,7 +48,7 @@ nav	{
 	color: white;
 	text-decoration: none;
 	letter-spacing: 3px;
-	font-size: 20px;
+	font-size: 40px;
 	transition: .5s;
 }
 
@@ -66,7 +66,7 @@ nav	{
 }
 
 .sticky {
-	background-color: rgba(0,0,0, .6);
+	background-color: #3D3D3D;
 	min-height: 8vh;
 	z-index: 98;
 	font-size: 20px;
@@ -176,20 +176,24 @@ section	{
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	body {
-		overflow-x: hidden;
+		/*overflow-x: hidden;*/
 		scroll-snap-type: none;
 	}
 
+	p ul li {
+		font-size: 120%
+	}
+
 	.header-1 {
-		font-size: 300%;
+		font-size: 860%;
 		letter-spacing: 15px;
 
 	}
 
 	.header-2 {
-		font-size: 300%;
+		font-size: 900%;
 		letter-spacing: 15px;
 	}
 
@@ -197,8 +201,8 @@ section	{
 		position: absolute;
 		right: 0px;
 		height: 40vh;
-		top: 6vh;
-		background-color: rgba(0,0,0, .6);
+		top: 4vh;
+		background-color: #3D3D3D;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -213,6 +217,28 @@ section	{
 
 	.line-burger {
 		display: block;
+		margin-right: 6%;
+	}
+
+	.logo {
+		letter-spacing: 10px;
+		font-size: 52px;
+	}
+
+	.line-burger div {
+		width: 80px;
+		height: 5px;
+		margin: 20px;
+
+	}
+
+	.story {
+		font-size: 220%;
+	}
+
+	.two-col ul li {
+		font-size: 30px;
+		font-weight: bold;
 	}
 }
 
@@ -232,7 +258,7 @@ section	{
 }
 
 .toggle .line1 {
-	transform: rotate(-45deg) translate(-5px,6px);
+	transform: rotate(-45deg) translate(6px,35px);
 }
 
 .toggle .line2 {
@@ -240,5 +266,5 @@ section	{
 }
 
 .toggle .line3 {
-	transform: rotate(45deg) translate(-5px,-6px);
+	transform: rotate(45deg) translate(0px,-40px);
 }
