@@ -3,6 +3,9 @@
 }
 
 body{
+	top: 0;
+	left: 0;
+	width: 100%;
 	background-color: #34495e;
   	font-family: 'Ubuntu', sans-serif;
 }
@@ -21,53 +24,46 @@ ul {
 	display:inline-block;
 }
 
-nav {
+
+nav	{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 50px;
-	padding: 0px 50px;
+	transition: .5s;
+	background-color: #3D3D3D;
+	min-height: 8vh;
+	z-index: 98;
 	font-size: 20px;
 	font-weight: 300;
-	box-sizing: border-box;
-	transition: .2s;
-	z-index: 99;
-	background-color: rgba(0,0,0, .7);
 }
-
-nav ul {
-	float: right;
-	margin: 0;
-	padding: 0;
-	display: flex;
-}
-
-nav ul li {
-	list-style: none;
-}
-
-nav ul li a {
-	line-height: 50px;
+.logo {
 	color: white;
-	font-weight: 400;
-	padding: 15px 20px;
-	font-weight: 500;
-	text-decoration: none;
 	text-transform: uppercase;
-	transition: .35s;
+	letter-spacing: 10px;
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 22px;
 }
 
-.header {
-	background-color: white;
-	text-align: center;
-	color: "black";
-	padding: 60px;
-	clip-path: polygon(0 0%, 100% 0, 100% 70%, 0% 100%);
-	margin: 0;
-	font-size: 40px;
-	font-family: 'Caesar Dressing', cursive;
-	letter-spacing: 10px;
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 40%
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 25px;
+	transition: .5s;
+}
+
+h1 {
+	padding-top: 10%;
 }
 
 p {
@@ -75,10 +71,13 @@ p {
 	font-size: 20px;
 }
 
+.the-game {
+	padding: 5%;
+}
+
 button {
 	margin-top: 10%;
 	margin-left: 25%;
-	padding: 6px;
 	width: 280px;
 	height: 60px;
 	border: none;
@@ -125,4 +124,27 @@ button:hover {
 .weapon {
 	visibility:hidden;
   	z-index: 6;
+}
+
+@media screen and (max-device-width: 768px) {
+
+	img {
+		position: absolute;
+		margin-top: 20%;
+		margin-left: 14%;
+		display:inline-block;
+	  	height:30%;
+	}
+
+	button:first-child {
+		margin-top: 30%;
+		margin-left: 25%;
+	}
+
+	nav	{
+		min-height: 6vh;
+		z-index: 98;
+		font-size: 20px;
+		font-weight: 300;
+	}
 }

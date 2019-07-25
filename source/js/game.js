@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 	function ImageSwitcher(choices, i) {
@@ -51,5 +52,17 @@ $(document).ready(function(){
 	document.getElementById("weaponButton").onclick = function() {weaponPicker.Next(); };
 
 });
+
+window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("A teljes játékélmény érdekében forditsd el a telefont!");              
+    } else {
+
+    }
+  }
+
+
+
 
 
