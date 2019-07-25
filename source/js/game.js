@@ -56,7 +56,7 @@ $(document).ready(function(){
 window.onload=function(){
     var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
     if (mobile) {
-        alert("A teljes játékélmény érdekében forditsd el a telefont!");              
+        alert("A teljes játékélmény érdekében próbálja ki a játékot asztali számítógépen 1920*1080-as felbontásban!");              
     } else {
 
     }

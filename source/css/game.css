@@ -130,21 +130,42 @@ button:hover {
 
 	img {
 		position: absolute;
-		margin-top: 20%;
-		margin-left: 14%;
+		margin-top: 5%;
+		margin-left: 5%;
 		display:inline-block;
-	  	height:30%;
+	  	height:40%;
 	}
 
-	button:first-child {
-		margin-top: 30%;
-		margin-left: 25%;
+	button {
+		margin-top:30%;
+		margin-left: 15%;
+		width: 200px;
+		height: 70px;
 	}
 
 	nav	{
-		min-height: 6vh;
+		min-height: 8vh;
 		z-index: 98;
-		font-size: 20px;
+		font-size: 60px;
 		font-weight: 300;
 	}
+	.logo {
+		letter-spacing: 15px;
+		font-family: 'Caesar Dressing', cursive;
+		font-size: 60%;
+	}
+
+	.nav-links {
+		width: 60%
+	}
+
+	.nav-links a {
+		letter-spacing: 3px;
+		font-size: 35px;
+	}
+
+	.the-game {
+		padding-top: 20%; 
+	}
+
 }
