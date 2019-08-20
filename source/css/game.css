@@ -96,34 +96,39 @@ button:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.pant {
+.skin {
 	visibility:hidden;
   	z-index: 1;
 }
 
-.chestplate {
+.pant {
 	visibility:hidden;
   	z-index: 2;
 }
 
-.helmet {
+.chestplate {
 	visibility:hidden;
   	z-index: 3;
 }
 
-.shoe {
+.helmet {
 	visibility:hidden;
   	z-index: 4;
 }
 
-.shield {
+.shoe {
 	visibility:hidden;
   	z-index: 5;
 }
 
-.weapon {
+.shield {
 	visibility:hidden;
   	z-index: 6;
+}
+
+.weapon {
+	visibility:hidden;
+  	z-index: 7;
 }
 
 @media screen and (max-device-width: 768px) {

@@ -32,6 +32,10 @@ $(document).ready(function(){
 	var shoes = $(".shoe");
 	var shields = $(".shield");
 	var weapons = $(".weapon");
+	var skincolor = $(".skin");
+
+	var skinPicker = new ImageSwitcher(skincolor);
+	document.getElementById("skinButton").onclick = function() {skinPicker.Next(); };
 
 	var pantPicker = new ImageSwitcher(pants);
 	document.getElementById("pantButton").onclick = function() {pantPicker.Next(); };
