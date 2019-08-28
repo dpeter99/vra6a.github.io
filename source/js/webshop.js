@@ -33,3 +33,22 @@ const navSlide = () => {
 }
 
 navSlide();
+
+var number = 0;
+
+$(document).ready(function(){
+
+	var cartDisplay = document.getElementById("cart");
+	var cartnumber = document.getElementsByClassName('button');
+
+	for (var i=0; i < 26; i++) {
+		var buttons = cartnumber[i];
+		buttons.addEventListener('click', function() {
+			number += 1;
+			console.log('clicked');
+			console.log(number);
+			cartDisplay.textContent = number;
+		})
+	}
+
+});

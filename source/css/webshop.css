@@ -88,7 +88,17 @@ a {
 	margin-bottom: -1rem;
 }
 
+.shoppin-cart {
+	max-width: 30px;
+}
 
+#cart {
+	margin-left: 50%;
+	color: white;
+	font-size: 17px;
+	padding: 5px;
+	text-align: center;
+}
 
 nav	{
 	display: flex;
@@ -177,6 +187,10 @@ nav	{
 
 	p ul li {
 		font-size: 120%
+	}
+
+	.shoppin-cart {
+		visibility: hidden;
 	}
 
 	.menu a {
